@@ -13,8 +13,6 @@ public class MetierImpl implements IMetier {
     public MetierImpl(IDao dao) {
         this.dao = dao;
     }
-
-
     @Override
     public double calcul() {
         double tmp=dao.getData();
@@ -26,6 +24,4 @@ public class MetierImpl implements IMetier {
     {
         this.dao = dao;
     }
-
-
 }
